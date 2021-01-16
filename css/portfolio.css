@@ -44,17 +44,14 @@
 }
 
 .portfolio-item {
-  outline: 1px solid var(--portfolio-frame-color);
-
   width: calc(100% / 3 - 30px);
   margin: 15px;
 }
 
-.portfolio-img {
-  display: block;
-}
-
 .portfolio-label {
+  border: 1px solid var(--portfolio-frame-color);
+  border-top-style: none;
+
   padding: 20px 24px;
 }
 
