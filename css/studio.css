@@ -81,7 +81,19 @@
   margin-top: 30px;
 }
 
-.feauture-item::before {
+.feauture-icon-wrapper {
+  background-color: var(--secondary-bg-color);
+  border-radius: 4px;
+
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Before icons example */
+/* .feauture-item::before {
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--secondary-bg-color);
@@ -104,7 +116,7 @@
 }
 .feauture-item:nth-child(4)::before {
   background-image: url('../images/feautures-04.svg');
-}
+} */
 
 .feauture-name {
   margin-bottom: 10px;
@@ -171,6 +183,8 @@
 }
 
 .team-position {
+  margin-bottom: 16px;
+
   font-size: 16px;
   line-height: 1.19;
 }
