@@ -110,7 +110,8 @@ body {
   color: var(--primary-white-color);
 }
 
-.socials-list-link:hover {
+.socials-list-link:hover,
+.socials-list-link:focus {
   background-color: var(--accent-color);
 
   color: var(--primary-white-color);
@@ -265,6 +266,7 @@ body {
 
 .footer-socials-wrapper {
   width: 270px;
+  padding-right: 64px;
 }
 
 .footer-socials-label {
@@ -273,22 +275,4 @@ body {
 
   text-transform: uppercase;
   color: var(--primary-white-color);
-}
-
-.footer-socials-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.footer-social-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.footer-social-link {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-
-  display: block;
-  width: 44px;
-  height: 44px;
 }
